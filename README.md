@@ -16,7 +16,7 @@ Run help to see available commands and usage provide by CLI
 
 subql help
 
-Initialize the starter package
+# Initialize the starter package
 
 Inside the directory in which you want to create the SubQuery project, simply replace project-name with your project name and run the command:
 
@@ -28,13 +28,13 @@ Last, under the project directory, run following command to install all the depe
 
 yarn install
 
-Configure your project
+# Configure your project
 
 In the starter package, we have provided a simple example of project configuration. You will be mainly working on the following files:
 
-The Manifest in project.yaml
-The GraphQL Schema in schema.graphql
-The Mapping functions in src/mappings/ directory
+- The Manifest in project.yaml
+- The GraphQL Schema in schema.graphql
+- The Mapping functions in src/mappings/ directory
 
 For more information on how to write the SubQuery, check out our doc section on Define the SubQuery
 
@@ -44,13 +44,13 @@ In order to index your SubQuery project, it is mandatory to build your project f
 
 yarn codegen
 
-Build the project
+# Build the project
 
 In order to deploy your SubQuery project to our hosted service, it is mandatory to pack your configuration before upload. Run pack command from root directory of your project will automatically generate a your-project-name.tgz file.
 
 yarn build
 
-Indexing and Query
+# Indexing and Query
 
 Run required systems in docker
 Under the project directory run following command:
