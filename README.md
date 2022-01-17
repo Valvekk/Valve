@@ -9,9 +9,11 @@ Environment
 - Both SubQuery CLI and generated Project have dependencies and require Node.
 
 Install the SubQuery CLI
+
 Install SubQuery CLI globally on your terminal by using NPM:
 
 npm install -g @subql/cli
+
 Run help to see available commands and usage provide by CLI
 
 subql help
@@ -76,14 +78,4 @@ For the subql-starter project, you can try to query with the following code to g
     }
   }
 }
-
-
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash – 
-sudo apt-get install -y nodejs # Setup Yarn 
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add – 
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list 
-sudo apt update 
-sudo apt install yarn # setup Docker 
-snap install docker
-apt install docker-compose
-
+Valve
