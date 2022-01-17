@@ -2,11 +2,11 @@
 
 The Starter Package is an example that you can use as a starting point for developing your SubQuery project. A SubQuery package defines which data The SubQuery will index from the Substrate blockchain, and how it will store it.
 
-Preparation
+# Preparation
 Environment
-Typescript are required to compile project and define types.
+- Typescript are required to compile project and define types.
 
-Both SubQuery CLI and generated Project have dependencies and require Node.
+- Both SubQuery CLI and generated Project have dependencies and require Node.
 
 Install the SubQuery CLI
 Install SubQuery CLI globally on your terminal by using NPM:
