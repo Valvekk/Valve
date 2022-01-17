@@ -79,11 +79,11 @@ For the subql-starter project, you can try to query with the following code to g
 
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash – 
-2. sudo apt-get install -y nodejs # Setup Yarn 
-1. curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add – 
-2. echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list 
-3. sudo apt update 
-4. sudo apt install yarn # setup Docker 
-1. snap install docker
-2. apt install docker-compose
+sudo apt-get install -y nodejs # Setup Yarn 
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add – 
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list 
+sudo apt update 
+sudo apt install yarn # setup Docker 
+snap install docker
+apt install docker-compose
 
